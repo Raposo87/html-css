@@ -1,1 +1,1 @@
-const form = document.getElementById('id#inome')
+Dados enviados com sucesso
