@@ -6,7 +6,7 @@
     <title>Exempro de Formulário</title>
 </head>
 <body>
-    <form action="cadastro.js" >
+    <form action="cadastro.js" method="get" autocomplete="on">
         <fieldset>
         <p>
             <label for="icor">Cor:</label>
@@ -14,7 +14,8 @@
         </p>
         <p>
             <label for="inivel">Nível de satisfação:</label>
-            <input type="range" name="nivel" id="inivel">
+            <input type="range" name="nivel" id="inivel" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inivel.value)">
+            <output id="ival">5</output>
         </p>
         <p>
             <label for="ifoto">Foto:</label>
