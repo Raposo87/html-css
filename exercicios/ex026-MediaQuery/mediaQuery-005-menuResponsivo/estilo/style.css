@@ -16,8 +16,22 @@ header > h1{
     text-align: center;
 }
 
+.material-symbols-outlined{
+    background-color: rgb(52, 52, 52);
+    color: white;
+    width: 100vw;
+    padding: 2px;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    background-color: white;
+    color: black;
+}
+
 menu{
-    display: block;
+    display: none;
     padding: 10px;
 }
 menu > ul{
