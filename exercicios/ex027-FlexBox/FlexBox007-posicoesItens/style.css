@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+div.conteiner1{
+    background-color: lightcoral;
+    display: flex; 
+    flex-flow: row wrap;
+}
+div.item1{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+div#i1{
+    order: 3;
+}
+div#i2{
+    order: 1;
+}
+div#i3{
+    order: 0;
+}
+div#i4{
+    order: -5;
+}
+div#i5{
+    order: -1;
+}
+div#i6{
+    order: 4;
+}
+div#i7{
+    order: 2;
+}
+div#i8{
+    order: 6;
+}
+
+
+div.conteiner2{
+    background-color: rgb(135, 238, 127);
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: flex-end; /*esse valor vai ser o padrão os itens herda do pai conttainer*/
+    height: 400px;
+}
+div.item2{
+    background-color: rgba(40, 11, 184, 0.714);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+div#p1{
+    align-self: center;
+}
+div#p2{
+}
+div#p3{
+    align-self: center;
+}
+div#p4{
+    align-self: flex-start;
+}
+div#p5{
+    align-self: stretch;
+}
+div#p6{
+
+}
+div#p7{
+    align-self: stretch;
+}
+div#p8{
+    align-self: center;
+}
