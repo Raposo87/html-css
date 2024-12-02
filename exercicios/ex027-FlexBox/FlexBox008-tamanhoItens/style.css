@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div.conteiner{
+    background-color: lightcoral;
+    display: flex;   
+    flex-flow: row nowrap; /*row wrap quebra os itens (fazer teste)*/        
+}
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 150px;
+}

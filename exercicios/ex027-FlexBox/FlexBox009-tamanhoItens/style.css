@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div.conteiner{
+    background-color: lightcoral;
+    margin-bottom: 20px;
+    display: flex; 
+    flex-flow: row nowrap;       
+}
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 50px;
+}
+div#caixa1{
+    flex: 1 0 150px;
+}
+div#caixa2{
+    
+}
+div#caixa3{
+    
+}
