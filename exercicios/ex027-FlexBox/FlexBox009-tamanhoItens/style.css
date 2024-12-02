@@ -13,11 +13,23 @@ div.item{
     flex-basis: 50px;
 }
 div#caixa1{
-    flex: 1 0 150px;
+    /*flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: 150px;*/
+    
+    flex: 1 0 200px;
 }
 div#caixa2{
-    
+    /*flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: 150px;*/
+
+    flex: 1 0 200px;
 }
 div#caixa3{
-    
+     /*flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: 150px;*/
+
+    flex: 1 2 200px;
 }
